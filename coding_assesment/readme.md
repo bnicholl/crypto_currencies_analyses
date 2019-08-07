@@ -5,7 +5,7 @@ We are implimenting a simple moving average crossover. When our smaller moving a
 
 Install virtualenv by running command:   pip install virtualenv
 
-1. download coding_assignment folder, then CD into coding_assignment folder
+1. download coding_assesment folder, then CD into coding_assesment folder
 2. run from the command line:   virtualenv coding_assignment
  3. From command line, run:   source coding_assignment/bin/activate 
  4. from command line run:   pip install -r requirements.txt
