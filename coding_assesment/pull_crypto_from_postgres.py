@@ -11,7 +11,7 @@ import pandas as pd
 
 def pull_crypto_from_postgres(crypto_currency):
     
-    con = psycopg2.connect(database="postgres", user="postgres", password="crypto_currency", host="crypto.coj2oe8bukze.us-east-1.rds.amazonaws.com", port="5432")
+    con = psycopg2.connect(database="postgres", user="postgres", password="***", host="***", port="5432")
     
     data = pd.read_sql_query("SELECT * FROM {}".format(crypto_currency), con)   
     time_period_start = data['time_period_start'].tolist()
