@@ -36,7 +36,7 @@ def historical_data(symbol):
 
 
 def post_to_postgres(df, name):
-    engine = create_engine('postgresql://postgres:crypto_currency@crypto.coj2oe8bukze.us-east-1.rds.amazonaws.com')
+    engine = create_engine('***')
     """creates the table in postgres, then puts the respective pandas dataframe into that table """
     df.to_sql(name, engine)
 
